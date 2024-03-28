@@ -7,7 +7,7 @@ import {
   fetchLatestInvoices,
   fetchCardData,
 } from '@/app/lib/data';
-export default async function DasboardPage() {
+export default async function DashboardPage() {
   const revenue = await fetchRevenue();
   const latestInvoices = await fetchLatestInvoices();
   const cardData = await fetchCardData();
